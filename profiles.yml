@@ -1,0 +1,13 @@
+# example profiles.yml file
+jaffle_shop:
+  target: dev
+  outputs:
+    dev:
+      type: mssql
+      host: 192.168.2.118
+      user: paul.huang
+      password: linBAvasong1983
+      port: 1433
+      dbname: DataTeam_test
+      schema: dbo
+      threads: 4
