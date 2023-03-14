@@ -5,10 +5,10 @@ jaffle_shop:
     dev:
       type: sqlserver
       driver: 'ODBC Driver 18 for SQL Server' # (The ODBC Driver installed on your system)
-      host: 192.168.2.118
+      server: 192.168.2.118
+      port: 1433
+      database: DataTeam_test
+      schema: dbo
       user: paul.huang
       password: linBAvasong1983
-      port: 1433
-      dbname: DataTeam_test
-      schema: dbo
-      threads: 4
+      encrypt: false
