@@ -10,5 +10,5 @@ jaffle_shop:
       database: DataTeam_test
       schema: dbo
       user: paul.huang
-      password: linBAvasong1983
+      password:
       encrypt: false
